@@ -359,12 +359,16 @@ const tout_le_mondeInit = [
   'Désignez tous en même temps le ou la plus moche, cette personne boiras 2 gorgées',
   'Désignez tous en même temps le ou la plus méchant/méchante, cette personne boiras 2 gorgées',
   'Désignez tous en même temps le ou la plus hypocrite, cette personne boiras 2 gorgées',
+  'Désignez tous en même temps le ou la plus bête, cette personne boiras 3 gorgées',
   'Désignez tous en même temps le ou la plus gentil/gentille, cette personne distribueras 4 gorgées',
   'Désignez tous en même temps le ou la fils/fille à papa, cette personne boiras 3 gorgées',
-  "Le ou la plus âgé/e du groupe choisi un thème, il ou elle commence. Le premier qui répète ou n'a plus d'idée boit 5 gorgées",
-  "Le ou la plus jeune du groupe choisi un thème, il ou elle commence. Le premier qui répète ou n'a plus d'idée boit 5 gorgées",
+  'Désignez tous en même temps le ou la personne qui devra illico presto finir son verre ! Santé à lui/elle',
+  "Le/la plus âgé/e du groupe choisi un thème, il/elle commence. Le premier joueur qui répète ou n'a plus d'idée boit 5 gorgées",
+  "Le/la plus jeune du groupe choisi un thème, il/elle commence. Le premier joueur qui répète ou n'a plus d'idée boit 5 gorgées",
+  "Faites un pierre-papier-ciseaux contre la personne qu'il y a à votre gauche, le/la perdant/e boit 3 gorgées. Le/la plus jeune du groupe commence",
   'Désignez tous en même temps celui ou celle qui se masturbe beaucoup trop, cette personne boiras 4 gorgées',
   '5 gorgées pour tout le monde',
+  '2 gorgées pour tout le monde',
 ];
 const tout_le_mondeData = [];
 tout_le_mondeData.push(...tout_le_mondeInit);
@@ -420,6 +424,13 @@ const burger_quizInit = [
     three: "Fais un signe de gang",
     four: "Il a plu aujourd'hui ?",
     five: "Burger ou Pizza ",
+  },
+  {
+    one: "L'ananas dans une pizza c'est ok ou c'est mort ?",
+    two: "Sur quel continent se situe la Jamaïque ?",
+    three: "Dis moi un secret sur toi que personne ne sait",
+    four: "Coca ou Pepsi ?",
+    five: "Combien de pattes un mille-pattes possède-t-il ?",
   },
   {
     one: "Quel est le prénom de ta mère ?",
