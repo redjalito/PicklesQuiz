@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.centre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*SCROLL BAR*/
+::-webkit-scrollbar {
+    width: 5px;
+    height: 100%;
+}
+::-webkit-scrollbar-thumb {
+    background: #071630; 
+    border-radius: 10px;
+}
+
+/*BOUTTONS*/
+.button {
+    height: 15vh;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #F5F6FF;
+    border-radius: 25px;
+}
+button {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    font-weight: 700;
+    font-size: medium;
+    color: #374EF3;
+}
+h1 {
+    font-weight: 500;
+    font-size: x-large;
+    color: #374EF3;
+    margin-bottom: 10vh;
+}
+h2 {
+    font-weight: 700;
+    font-size: medium;
+    color: #071630;
+    line-height: 4vh;
+    margin-bottom: 5vh;
+}
+h3 {
+    font-weight: 700;
+    font-size: small;
+    color: #071630;
+    margin-bottom: 5vh;
+}
+
+/*BODY*/
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+/*HOME*/
+.home {
+    display: flex;
+    height: 90%;
+    width: 90%;
+}
+#name_list {
+    height: 70vh;
+    width: 100%;
+    justify-content: start;
+    overflow: scroll;
+}
+.name_input {
+    width: 70%;
+    max-width: 600px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    outline: none;
+    border: 1px solid #071630;
+    background-color: #F5F6FF;
+    border-radius: 13px;
+    color: #071630;
+}
+#fields {
+    height: 15vh;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#fields a {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    color: #071630;
+}
+
+/*VRAI OU FAUX*/
+.vrai_ou_faux {
+    display: none;
+    height: 90%;
+    width: 90%;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-align: center;
+}
+#question {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.vrai_ou_faux_question {
+    height: 85vh;
+    width: 100%;
+    justify-content: start;
+    
+}
+#reponse {
+    display: none;
+    height: 100%;
+    width: 100%;
+}
+.vrai_ou_faux_reponse {
+    height: 85vh;
+    width: 100%;
+    justify-content: start;
+    
+}
+
+/*TOUT LE MONDE*/
+.tout_le_monde {
+    display: none;
+    height: 90%;
+    width: 90%;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-align: center;
+}
+.tout_le_monde_defi {
+    height: 85vh;
+    width: 100%;
+    justify-content: start;
+}
+
+/*DEFI BURGER QUIZ*/
+.defi_burger_quiz {
+    display: none;
+    height: 90%;
+    width: 90%;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-align: center;
+}
+.regles_defi_burger_quiz {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.regles_burger {
+    height: 85vh;
+    width: 100%;
+    justify-content: start;
+}
+.jeu_defi_burger_quiz {
+    display: none;
+    height: 100%;
+    width: 100%;
+}
+.jeu_burger {
+    height: 85vh;
+    width: 100%;
+    justify-content: start;
+}
+/*PLUS OU MOINS*/
+.plus_ou_moins {
+    display: none;
+    height: 90%;
+    width: 90%;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-align: center;
+}
+.regles_plus_ou_moins {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.regles_plus {
+    height: 85vh;
+    width: 100%;
+    justify-content: start;
+}
+.jeu_plus_ou_moins {
+    display: none;
+    height: 100%;
+    width: 100%;
+}
+.jeu_plus {
+    height: 85vh;
+    width: 100%;
+    justify-content: start;
+}
+.back_home {
+    display: none;
+    height: 90%;
+    width: 90%;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-align: center;
+    background-color: black;
+}
+

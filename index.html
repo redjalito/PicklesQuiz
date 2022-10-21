@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatbile" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Party App</title>
+    <link rel="shortcut icon" href="" />
+
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://kit.fontawesome.com/a180e70c3e.js" crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+
+<!--HOME-->
+    <div class="home centre" id="home">
+
+        <div class="centre" id="name_list">
+            <input type="text" name="name_text[]" class="name_input"/>
+        </div>
+
+        <div class="centre" id="fields">
+            <a class="centre" id="remove_fields"><i class="fa-solid fa-user-minus fa-2xl"></i></a>
+            <a class="centre" id="add_more_fields"><i class="fa-solid fa-user-plus fa-2xl"></i></a>
+          </div>
+
+        <div class="button centre">
+          <button class="suivant" id="jouer_button">jouer</button>
+        </div>
+
+    </div>
+
+<!--VRAI OU FAUX-->
+    <div class="vrai_ou_faux centre" id="vrai_ou_faux">
+
+        <div class="question centre" id="question">
+          <div class="vrai_ou_faux_question centre">
+            <h1 class="centre">vrai ou faux ?</h1>
+            <h2 class="name_output centre">name</h2>
+            <h2 class="centre" id="questionText"></h2>
+          </div>
+          <div class="button centre">
+            <button id="vrai_button">vrai</button>
+            <button id="faux_button">faux</button>
+          </div>
+        </div>
+
+        <div class="reponse centre" id="reponse">
+          <div class="vrai_ou_faux_reponse centre">
+            <h1 class="centre">vrai ou faux ?</h1>
+            <h2 class="centre" id="reponseText"></h2>
+          </div>
+          <div class="button centre" id="button">
+            <button class="suivant" id="vrai_ou_faux_button">suivant</button>
+          </div>
+        </div>
+
+    </div>
+
+<!--TOUT LE MONDE-->
+    <div class="tout_le_monde centre" id="tout_le_monde">
+      <div class="tout_le_monde_defi">
+        <h1 class="centre">tout le monde</h1>
+        <h2 class="centre" id="tout_le_mondeText"></h2>
+      </div>
+
+      <div class="button centre">
+        <button class="suivant" id="tout_le_monde_button">suivant</button>
+      </div>
+    </div>
+
+<!--DEFI BURGER QUIZ-->
+    <div class="defi_burger_quiz centre" id="defi_burger_quiz">
+
+        <div class="regles_defi_burger_quiz centre" id="regles_defi_burger_quiz">
+          <div class="regles_burger">
+            <h1 class="centre">le jeu de la muerte</h1>
+            <h2 class="name_output centre">name</h2>
+            <h3 class="centre">
+              Si tu as le téléphone, donnes le à quelqu'un d'autre !
+            </h3>
+            <h2 class="centre">
+              Je vais te poser 5 questions, tu ne pourras y répondre que quand j'aurais fini de te les poser.
+              <br>
+              Attention, tu devras y répondre dans le même ordre !
+              <br>
+              A la moindre erreur, tu boiras 10 gorgées...
+              Si tu réussis, tu les distribueras à qui tu veux !
+            </h2>
+          </div>
+          <div class="button centre">
+            <button id="regles_defi_burger_quiz_button">prêt</button>
+          </div>
+        </div>
+
+        <div class="jeu_defi_burger_quiz centre" id="jeu_defi_burger_quiz">
+          <div class="jeu_burger">
+            <h1 class="centre">le jeu de la muerte</h1>
+            <h2 class="centre" id="one">question1</h2>
+            <h2 class="centre" id="two">question2</h2>
+            <h2 class="centre" id="three">question3</h2>
+            <h2 class="centre" id="four">question4</h2>
+            <h2 class="centre" id="five">question5</h2>
+          </div>
+          <div class="button centre">
+            <button class="suivant" id="jeu_defi_burger_quiz_button">suivant</button>
+          </div>
+        </div>
+
+    </div>
+
+<!--PLUS OU MOINS-->
+    <div class="plus_ou_moins centre" id="plus_ou_moins">
+
+        <div class="regles_plus_ou_moins centre" id="regles_plus_ou_moins">
+          <div class="regles_plus">
+            <h1 class="centre">plus ou moins ?</h1>
+            <h2 class="name_output centre">name</h2>
+            <h3 class="centre">
+              Si tu as le téléphone, donnes le à quelqu'un d'autre !
+            </h3>
+            <h2 class="centre">
+              Un nombre compris entre 0 et 100 000 sera affiché, tu auras 1 min pour le deviner.
+              <br>
+              Je ne pourrai t'aider en te répondant que par plus ou par moins !
+              <br>
+              Si tu ne trouve pas le nombre dans le temps imparti, tu boiras 5 gorgées...
+              Si tu réussis, tu les distribueras à qui tu veux !
+            </h2>
+          </div>
+          <div class="button centre">
+            <button id="regles_plus_ou_moins_button">prêt</button>
+          </div>
+        </div>
+
+        <div class="jeu_plus_ou_moins centre" id="jeu_plus_ou_moins">
+          <div class="jeu_plus">
+            <h1 class="centre">plus ou moins ?</h1>
+            <h2 class="centre" id="minuteur"></h2>
+            <h2 class="centre" id="jeu_nombre">nombre aléatoire</h2>
+          </div>
+          <div class="button centre">
+            <button class="suivant" id="jeu_plus_ou_moins_button">suivant</button>
+          </div>
+        </div>
+
+    </div>
+
+<!--BACK HOME-->
+    <div class="back_home centre" id="back_home">
+      <h2 class="name_output centre">name</h2>
+
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
