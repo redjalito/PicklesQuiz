@@ -141,7 +141,31 @@ const vrai_ou_fauxInit = [
     correct: "true"
   },
   {
+    question: "la distance entre la Terre et la station spatiale internationale est d'environ 400 kilomètres",
+    correct: "true"
+  },
+  {
     question: "Stanley Kubrick est le réalisateur du film Shining sorti en 1980",
+    correct: "true"
+  },
+  {
+    question: "Le film Alien, le huitième passager est sorti en 1979",
+    correct: "true"
+  },
+  {
+    question: "Michael Jackson est décédé en 2009",
+    correct: "true"
+  },
+  {
+    question: "Reservoir Dogs est le premier film de Quentin Tarantino",
+    correct: "true"
+  },
+  {
+    question: "la loi concernant la séparation des Églises et de l'État a été adoptée en 1905",
+    correct: "true"
+  },
+  {
+    question: "Guccio Gucci est le fondateur de la marque Gucci",
     correct: "true"
   },
   {
@@ -149,7 +173,51 @@ const vrai_ou_fauxInit = [
     correct: "true"
   },
   {
+    question: "James Brown était surnommé le parrain de la soul",
+    correct: "true"
+  },
+  {
+    question: "Tom Elvis Jedusor se faisait appeler Voldemort",
+    correct: "true"
+  },
+  {
+    question: "Paris est la capitale de la France",
+    correct: "true"
+  },
+  {
     question: "A Wimbledon, tous les joueurs doivent être habillés en blanc",
+    correct: "true"
+  },
+  {
+    question: "Berlin est la capitale de l'Allemagne",
+    correct: "true"
+  },
+  {
+    question: "L'atmosphère est principalement composé d'azote et d'oxygène",
+    correct: "true"
+  },
+  {
+    question: "Le point Nemo est le point de l'océan le plus éloigné de toute terre émergée",
+    correct: "true"
+  },
+  {
+    question: "Max Verstappen est le plus jeune pilote de F1 à avoir remporté un grand prix",
+    correct: "true"
+  },
+  {
+    question: "Lima est la capitale du Pérou",
+    correct: "true"
+  },
+  {
+    question: "Emmanuel Macron est né en 1977",
+    correct: "true"
+  },
+  {
+    question: "Sort le cross volé est le tout premier single de Jul",
+    correct: "true"
+  },
+  {
+    question: "Depuis 1965 une femme est libre de travailler sans l'accord de son mari",
     correct: "true"
   },
   {
@@ -161,7 +229,15 @@ const vrai_ou_fauxInit = [
     correct: "true"
   }, 
   {
+    question: "Le lancement de la TNT (Télévision Numérique Terrestre) en France métropolitaine a eu lieu en 2005",
+    correct: "true"
+  }, 
+  {
     question: "La ville de Paris est divisée en 18 arrondissements",
+    correct: "false"
+  },
+  {
+    question: "La ville de Cancún se trouve aux Etats-Unis",
     correct: "false"
   },
   {
@@ -178,6 +254,70 @@ const vrai_ou_fauxInit = [
   },
   {
     question: "New York est la capitale des États-Unis",
+    correct: "false"
+  },
+  {
+    question: "Le Titanic faisait 350 mètres de long",
+    correct: "false"
+  },
+  {
+    question: "Le Royaume-Uni est constitué de 5 nations",
+    correct: "false"
+  },
+  {
+    question: "Léonard de Vinci a peint le plafond de la chapelle Sixtine à Rome",
+    correct: "false"
+  },
+  {
+    question: "Neil Armstrong pose le pied sur la Lune en 1983",
+    correct: "false"
+  },
+  {
+    question: "La chute du mur de Berlin a eu lieu en 1979",
+    correct: "false"
+  },
+  {
+    question: "le match de tennis le plus long de l'histoire a duré 19 heures et 32 minutes",
+    correct: "false"
+  },
+  {
+    question: "Dans un jeu d’échec, il faut absolument protéger la reine",
+    correct: "false"
+  },
+  {
+    question: "Elon Musk est le fondateur de Tesla",
+    correct: "false"
+  },
+  {
+    question: "Il y a 78 millions d'habitants en France",
+    correct: "false"
+  },
+  {
+    question: "Un alexandrin est composé de 24 syllabes",
+    correct: "false"
+  },
+  {
+    question: "Bombay est la capitale de l'Inde",
+    correct: "false"
+  },
+  {
+    question: "Melbourne est la capitale de l'Australie",
+    correct: "false"
+  },
+  {
+    question: "Los Angeles est parfois surnommée la grande pomme",
+    correct: "false"
+  },
+  {
+    question: "Elon Musk est né aux Etats-Unis",
+    correct: "false"
+  },
+  {
+    question: "L'album Discovery est le premier album des Daft Punk",
+    correct: "false"
+  },
+  {
+    question: "Mykonos est la capitale de la Grèce",
     correct: "false"
   },
   {
@@ -217,9 +357,14 @@ function vfCheck(answer) {
 
 const tout_le_mondeInit = [
   'Désignez tous en même temps le ou la plus moche, cette personne boiras 2 gorgées',
+  'Désignez tous en même temps le ou la plus méchant/méchante, cette personne boiras 2 gorgées',
+  'Désignez tous en même temps le ou la plus hypocrite, cette personne boiras 2 gorgées',
+  'Désignez tous en même temps le ou la plus gentil/gentille, cette personne distribueras 4 gorgées',
   'Désignez tous en même temps le ou la fils/fille à papa, cette personne boiras 3 gorgées',
+  "Le ou la plus âgé/e du groupe choisi un thème, il ou elle commence. Le premier qui répète ou n'a plus d'idée boit 5 gorgées",
+  "Le ou la plus jeune du groupe choisi un thème, il ou elle commence. Le premier qui répète ou n'a plus d'idée boit 5 gorgées",
   'Désignez tous en même temps celui ou celle qui se masturbe beaucoup trop, cette personne boiras 4 gorgées',
-  '5 gorgées pour tout le monde'
+  '5 gorgées pour tout le monde',
 ];
 const tout_le_mondeData = [];
 tout_le_mondeData.push(...tout_le_mondeInit);
@@ -260,7 +405,7 @@ const burger_quizInit = [
     two: "Quel est le nom de ton animal de compagnie ?",
     three: "Eté ou hiver ?",
     four: "Mars ou Snickers ?",
-    five: "Epelle le mot caca"
+    five: "Epelle le mot caca",
   },
   {
     one: "Qui était Marie Curie ?",
@@ -268,6 +413,20 @@ const burger_quizInit = [
     three: "Danse vite fais",
     four: "Quelle est la couleur de tes chaussures ?",
     five: "Répète après moi: les chaussettes de l'archiduchesse sont-elles sèches? Archi-sèches ?",
+  },
+  {
+    one: "Comment tu t'appelles ?",
+    two: "Quelle année vient après l'an 1 avant J-C ?",
+    three: "Fais un signe de gang",
+    four: "Il a plu aujourd'hui ?",
+    five: "Burger ou Pizza ",
+  },
+  {
+    one: "Quel est le prénom de ta mère ?",
+    two: "Tu fais quoi de la vie ?",
+    three: "T'as déjà pété en classe ?",
+    four: "Chaud ou froid ?",
+    five: "Kebab ou tacos ?",
   },
   {
     one: "Messi ou Ronaldo ?",
