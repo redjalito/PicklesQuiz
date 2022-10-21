@@ -141,11 +141,43 @@ const vrai_ou_fauxInit = [
     correct: "true"
   },
   {
-    question: "L'Espagne a remporté la coupe du monde de football en 2010",
+    question: "Stanley Kubrick est le réalisateur du film Shining sorti en 1980",
     correct: "true"
   },
   {
+    question: "Minecraft est le jeux-vidéo le plus vendu au monde",
+    correct: "true"
+  },
+  {
+    question: "A Wimbledon, tous les joueurs doivent être habillés en blanc",
+    correct: "true"
+  },
+  {
+    question: "Le premier Call of Duty est sorti en 2003",
+    correct: "true"
+  },
+  {
+    question: "L'Espagne a remporté la coupe du monde de football en 2010",
+    correct: "true"
+  }, 
+  {
     question: "La ville de Paris est divisée en 18 arrondissements",
+    correct: "false"
+  },
+  {
+    question: "Ronaldinho est le joueur qui apparaît le plus sur les couvertures des jeux Fifa",
+    correct: "false"
+  },
+  {
+    question: "James Cameron est le réalisateur du film Les Dents de la mer sorti en 1975",
+    correct: "false"
+  },
+  {
+    question: "Jennifer Aniston joue le rôle de Monica Geller dans la série Friends",
+    correct: "false"
+  },
+  {
+    question: "New York est la capitale des États-Unis",
     correct: "false"
   },
   {
